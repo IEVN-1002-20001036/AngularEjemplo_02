@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularEjemplo02';
+  title = 'AngularEjemplo_02';
+  duplicarNumero(n:number):number{
+    return n+2;
+}
+
+pelicula={
+    titulo:'Cantinflas show',
+    fechadeLanzamiento:new Date(),
+    precio:1234
+}
 }
